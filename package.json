@@ -4,7 +4,7 @@
   "description": "website 2023",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/styles.css --style compressed"
+    "sass": "sass --watch ./src/styles/sass/main.scss:./src/styles/css/styles.css --style compressed"
   },
   "repository": {
     "type": "git",

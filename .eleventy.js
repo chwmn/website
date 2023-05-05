@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addWatchTarget("./src/css/");
+  eleventyConfig.addWatchTarget("./src/styles/css/");
   eleventyConfig.setTemplateFormats(["css", "html", "liquid"]);
   eleventyConfig.addPassthroughCopy("scripts");
   eleventyConfig.addPassthroughCopy("assets");
