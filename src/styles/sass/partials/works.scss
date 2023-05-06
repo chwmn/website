@@ -1,5 +1,6 @@
 .all_works {
     display: flex;
+    height: 90%;
 }
 
 .ind_works {
@@ -8,6 +9,7 @@
     height: 150px;
     width: 150px;
     margin: 30px;
+
     a {
         display: flex;
         text-decoration: none;
@@ -15,10 +17,9 @@
         height: inherit;
 
         h2 {
-            display: block;
             position: absolute;
             font-weight: normal;
-            color: yellow;
+            color: #fff;
             font-size: 50px;
             z-index: 1;
             text-align: center;
@@ -34,3 +35,4 @@
         }
     }
 }
+
