@@ -1,0 +1,36 @@
+.all_works {
+    display: flex;
+}
+
+.ind_works {
+    display: block;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    a {
+        display: flex;
+        text-decoration: none;
+        width: inherit;
+        height: inherit;
+
+        h2 {
+            display: block;
+            position: absolute;
+            font-weight: normal;
+            color: yellow;
+            font-size: 50px;
+            z-index: 1;
+            text-align: center;
+            align-self: center;
+            width: 100%;
+            font-style: italic;
+        }
+
+        img {
+            object-fit:cover;
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
