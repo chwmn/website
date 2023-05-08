@@ -1,9 +1,108 @@
 nav {
-display: flex;
-justify-content: space-between;
+    --logo-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
     ul {
+        display: flex;
+        justify-content: space-between;
         li {
         }
     }
 
+    .logos {
+        width: 100px;
+    }
+
+}
+
+.work_type_nav {
+    width: 200px;
+    font-style: italic;
+}
+
+
+.linkedin_logo {
+
+    display: block;
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border-radius: calc(var(--logo-size) / 4);
+    // box-sizing: border-box;
+    border: 2px solid black;
+    position: relative;
+    background-color: black;
+
+    #linkedin_logo_inside {
+    font-size: calc((var(--logo-size) / 8) * 7);
+    font-weight: bold;
+    position: absolute;
+    left: calc(var(--logo-size) / 8);
+    top: calc(var(--logo-size) / 16);
+    color: white;
+    }
+
+}
+
+
+
+.instagram_logo {
+
+    display: block;
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border: 2px solid black;
+    border-radius: calc(var(--logo-size) / 4);
+    // box-sizing: border-box;
+    position: relative;
+    background-color: black;
+
+    #instagram_logo_inside {
+        display: block;
+        width: calc(var(--logo-size) / 1.75);
+        height: calc(var(--logo-size) / 1.75);
+        border: 2px solid white;
+        border-radius: calc(var(--logo-size) / 3);
+        box-sizing: border-box;
+        position: absolute;
+        left: calc((var(--logo-size) / 4) * .9);
+        top: calc((var(--logo-size) / 4) * .9);
+    }
+
+    #instagram_logo_dot {
+        display: block;
+        height: calc(var(--logo-size) / 8);
+        width: calc(var(--logo-size) / 8);
+        background-color: white;
+        border-radius: calc(var(--logo-size) / 16);
+        left: calc(var(--logo-size) * (3/4));
+        position: absolute;
+        top: calc((var(--logo-size) / 32)* 3);
+    }
+
+}
+
+
+.contact_logo {
+    display: block;
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border: 2px solid black;
+    border-radius: calc(var(--logo-size) / 4);
+    // box-sizing: border-box;
+    position: relative;
+
+    #contact_logo_inside {
+        display: block;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        width: calc(var(--logo-size)/1.25);
+        height: calc(var(--logo-size)/1.25);
+        box-sizing:border-box;
+        transform: rotate(45deg);
+        position: absolute;
+        left: calc(var(--logo-size) / 9);
+        top: calc(var(--logo-size) / -8);
+
+    }
 }
